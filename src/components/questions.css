@@ -1,0 +1,36 @@
+
+ .questions button {
+  font-weight: bold;
+  border: 1px solid #3139ad;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #7981ee;
+  background-color: #e0c3fc;
+  margin-bottom: 0.5rem;
+  color: #5e5e5e;
+  font-family: cursive;
+  border-radius:3rem;
+  padding: 1rem ;
+  }
+  .questions h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .questions h2 {
+    
+    font-family: cursive;
+    font-size: 1.8rem;
+    color: #e9d7fa;
+    margin-bottom: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .questions h3 {
+    text-align: center;
+  }
+  .questionsb button:hover,
+  .questionsb button:active {
+    background-color: #9c5085;
+    border-color: #24021c;
+  }

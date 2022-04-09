@@ -1,0 +1,121 @@
+.start {
+  height: 150vh;
+  margin-bottom: 2rem;
+  padding: 2rem ;
+  }
+.start main {
+    flex: 1 1 95vh;
+    display: flex;
+    flex-direction: column;
+   
+  }
+.start .big-logo {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+.start input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    border: 1px solid rgb(239, 238, 240);
+    width: 10rem;
+    max-width: 100%;
+    background-color:rgb(249, 245, 250);
+  }
+  .start select {
+    border-radius: 3rem;
+    appearance: none;
+    outline: none;
+    border: 1px solid rgb(239, 238, 240);
+    padding: 0.5rem;
+    border-radius: 3px;
+    background-color:rgb(249, 245, 250);
+    margin-bottom: 0.5rem;
+    color: #5e5e5e;
+    font-family: cursive;
+    cursor: pointer;
+    border-radius:3rem;
+    padding: 0.7rem ;
+    width:12rem;
+    text-align: center;
+  }
+.start label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    align-items: center;
+  }
+  .starth2 {
+    font-weight: bold;    
+    align-items: left;
+  }
+.starth2 h2 {
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+    align-items: left;
+    height: 150vh;
+    padding: 2rem 0;
+  }
+.start main h1 {
+    font-size: 5rem;
+    letter-spacing: 2.4rem;
+    margin-bottom: .8rem;
+    color: #fff;
+    text-shadow: 1px 1px 0px #5e5e5e,
+                 2px 2px 0px #5e5e5e,
+                 3px 3px 0px #5e5e5e,
+                 4px 4px 0px #5e5e5e,
+                 5px 5px 0px #5e5e5e,
+                 6px 6px 0px #5e5e5e,
+                 7px 7px 0px #5e5e5e,
+                 8px 8px 0px #5e5e5e,
+                 9px 9px 0px #5e5e5e,
+                 10px 10px 0px #5e5e5e;
+  }
+.start main span {
+    display: inline-block;
+  }
+.start main .tilt-right {
+    transform: rotate(10deg) translateY(-.5rem);
+    animation: moveDown 2s linear infinite;
+  }
+  
+.start main .tilt-left {
+    transform: rotate(-10deg) translateY(.5rem);
+    animation: moveUp 2s linear infinite;
+  }
+.start main p {
+  font-family: cursive;
+    font-size: 2.4rem;
+    color: #e9d7fa;
+  }
+.start button {
+
+    border: 1px solid #3139ad;
+    padding: 0.5rem;
+    border-radius: 7px;
+    border: 1px solid #7981ee;
+    background-color: #e0c3fc;
+    margin-bottom: 5rem;
+    color: #5e5e5e;
+    font-family: cursive;
+    border-radius:4rem;
+    padding: 2rem ;
+
+   
+  }
+  
+.start button:hover,
+.start button:active {
+    background-color: #515486;
+    color: #444;
+  }
+  @keyframes moveDown {
+    50% {
+      transform: rotate(10deg) translateY(.5rem);
+    }
+  }
+  @keyframes moveUp {
+    50% {
+      transform: rotate(-10deg) translateY(-.5rem);
+    }
+  }

@@ -1,0 +1,30 @@
+.results{
+  
+    text-align: center;
+    font-family: cursive;
+    font-size: 5rem;
+    height: 150vh;
+    text-align: center;
+    align-items: center;
+    padding: 2rem 0;
+    font-weight: bold;
+  }
+  .results h1 {
+    font-weight: bold;
+    font-size: 5rem;
+    display: block;
+    align-items: left;
+  }
+  .results h5 {
+    font-weight: bold;
+    font-size: 3rem;
+    display: block;
+    align-items: left;
+    color: #e9d7fa;
+  }
+  .results h3{
+    font-weight: bold;
+    font-size: 5rem;
+    display: block;
+    align-items: left;
+  }
