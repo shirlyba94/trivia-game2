@@ -52,7 +52,7 @@ const Start = () => {
           </h1>
         <p>Enter name player and difficulty then let's begin!</p>
         <div>
-          <label> 7888Name: </label>
+          <label> Name: </label>
           <input
             type="string"
             value={enteredName}
